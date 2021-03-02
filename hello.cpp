@@ -2,6 +2,12 @@
 
 int main()
 {
-    std::cout << "hello world" << std::endl;
+    bool isFirst;
+    std::cin >> isFirst ;
+    if (isFirst) {
+        std::cout << "hello world" << std::endl;
+    } else {
+        std::cout << "hello again" << std::endl;
+    }
     return 0;
 }
